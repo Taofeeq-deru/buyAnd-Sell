@@ -37,7 +37,10 @@
   </head>
   <body data-spy="scroll" data-target="#navigation" data-offset="0">
     <!--navbar-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light" id="navigation">
+    <nav
+      class="navbar navbar-expand-md fixed-top w-90 navbar-light bg-light"
+      id="navigation"
+    >
       <a class="navbar-brand" href="#home"
         ><img
           src="https://res.cloudinary.com/taofeeq/image/upload/v1586892933/mamas_market_2_qi4yli.png"
@@ -45,8 +48,9 @@
           width="100"
           height="50"
       /></a>
+
       <button
-        class="navbar-toggler"
+        class="navbar-toggler navbtn"
         type="button"
         data-toggle="collapse"
         data-target="#navbarSupportedContent"
@@ -56,26 +60,29 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item mx-2">
-            <a class="nav-link fa-lg" href="#home">Home</a>
-          </li>
-          <li class="nav-item mx-2">
-            <a class="nav-link fa-lg" href="#about">About Us</a>
-          </li>
-          <li class="nav-item mx-2">
-            <a class="nav-link fa-lg" href="#contact">Contact Us</a>
-          </li>
-        </ul>
-        <button
-          class="btn btn-warning my-2 my-sm-0 btn-lg"
-          data-toggle="modal"
-          data-target="#registerModal"
-        >
-          Sign Up
-        </button>
+      <div class="move-left">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item mx-2">
+              <a class="nav-link fa-lg text-success" href="#home">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link fa-lg text-success" href="#about">About Us</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link fa-lg text-success" href="#contact"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+          <button
+            class="btn btn-warning my-2 my-sm-0 btn-lg"
+            data-toggle="modal"
+            data-target="#registerModal"
+          >
+            Sign Up
+          </button>
+        </div>
       </div>
     </nav>
 
@@ -111,16 +118,22 @@
       </div>
     </div>
     <!--signup & download-->
-    <div class="row mt-5 phoneSignup">
+    <div class="row phoneSignup">
       <div class="col-md-6">
-        <div class="phone">
+        <!-- <div class="phone">
           <img
             src="https://res.cloudinary.com/taofeeq/image/upload/v1586892933/mamas_market_2_qi4yli.png"
             alt="logo"
             height="100"
             width="200"
           />
-        </div>
+        </div> -->
+        <img
+          src="https://res.cloudinary.com/taofeeq/image/upload/v1586968186/mama_logo_hand_ydtsif.png"
+          alt="phone"
+          class="img-responsive w-100 d-block"
+          height="600"
+        />
       </div>
       <div class="col-md-6 text-center pt-3 pr-md-5 downloadSignup">
         <h1 class="my-3">
@@ -198,8 +211,8 @@
             <div class="col-md-6">
               <div data-aos="zoom-in-right">
                 <img
-                  src="https://res.cloudinary.com/taofeeq/image/upload/v1586918347/joyful-young-african-american-woman-laughing_33839-10524_ybo8ve.jpg"
-                  alt="lady"
+                  src="https://res.cloudinary.com/taofeeq/image/upload/v1586965932/keep_mama_dpa3du.jpg"
+                  alt="mama's market"
                   class="w-100 img-fluid"
                 />
               </div>
