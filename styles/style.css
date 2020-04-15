@@ -55,6 +55,10 @@ body {
   background-position: center;
 }
 
+.w-85 {
+  width: 85%;
+}
+
 .store-btn {
   display: flex;
   flex-direction: row;
