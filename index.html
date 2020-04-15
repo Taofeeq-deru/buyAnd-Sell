@@ -36,374 +36,368 @@
     <title>Mama's Market</title>
   </head>
   <body data-spy="scroll" data-target="#navigation" data-offset="0">
-    <div class="container-fluid m-0 p-0">
-      <!--navbar-->
-      <nav
-        class="navbar fixed-top navbar-expand-lg navbar-light bg-light"
-        id="navigation"
+    <!--navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light" id="navigation">
+      <a class="navbar-brand" href="#home"
+        ><img
+          src="https://res.cloudinary.com/taofeeq/image/upload/v1586892933/mamas_market_2_qi4yli.png"
+          alt="logo"
+          width="100"
+          height="50"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
       >
-        <a class="navbar-brand" href="#home"
-          ><img
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item mx-2">
+            <a class="nav-link fa-lg" href="#home">Home</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link fa-lg" href="#about">About Us</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link fa-lg" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+        <button
+          class="btn btn-warning my-2 my-sm-0 btn-lg"
+          data-toggle="modal"
+          data-target="#registerModal"
+        >
+          Sign Up
+        </button>
+      </div>
+    </nav>
+
+    <!--slides-->
+    <div class="row" id="home">
+      <div class="col-12">
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h1 class="carousel-slide one">
+                We know shopping<br />
+                can be stressful. <br />
+                That's why we're here.
+              </h1>
+            </div>
+            <div class="carousel-item">
+              <h1 class="carousel-slide two">
+                We set up online stores <br />
+                for sellers
+              </h1>
+            </div>
+            <div class="carousel-item">
+              <h1 class="carousel-slide three">
+                And bring them to your finger tips.
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--signup & download-->
+    <div class="row mt-5 phoneSignup">
+      <div class="col-md-6">
+        <div class="phone">
+          <img
             src="https://res.cloudinary.com/taofeeq/image/upload/v1586892933/mamas_market_2_qi4yli.png"
             alt="logo"
-            width="100"
-            height="50"
-        /></a>
+            height="100"
+            width="200"
+          />
+        </div>
+      </div>
+      <div class="col-md-6 text-center pt-3 pr-md-5 downloadSignup">
+        <h1 class="my-3">
+          Join us today, <br />
+          as a buyer or a seller
+        </h1>
         <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          class="btn btn-warning btn-lg"
+          data-toggle="modal"
+          data-target="#registerModal"
         >
-          <span class="navbar-toggler-icon"></span>
+          Sign Up Here
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item mx-2">
-              <a class="nav-link fa-lg" href="#home">Home</a>
-            </li>
-            <li class="nav-item mx-2">
-              <a class="nav-link fa-lg" href="#about">About Us</a>
-            </li>
-            <li class="nav-item mx-2">
-              <a class="nav-link fa-lg" href="#contact">Contact Us</a>
-            </li>
-          </ul>
-          <button
-            class="btn btn-warning my-2 my-sm-0 btn-lg"
-            data-toggle="modal"
-            data-target="#registerModal"
-          >
-            Sign Up
-          </button>
-        </div>
-      </nav>
-
-      <!--slides-->
-      <div class="row" id="home">
-        <div class="col-12">
-          <div
-            id="carouselExampleSlidesOnly"
-            class="carousel slide"
-            data-ride="carousel"
-          >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <h1 class="carousel-slide one">
-                  We know shopping<br />
-                  can be stressful. <br />
-                  That's why we're here.
-                </h1>
+        <!--modal-->
+        <div
+          class="modal fade"
+          id="registerModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="registerModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="registerModalLabel">
+                  Select Account Type
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
               </div>
-              <div class="carousel-item">
-                <h1 class="carousel-slide two">
-                  We set up online stores <br />
-                  for sellers
-                </h1>
-              </div>
-              <div class="carousel-item">
-                <h1 class="carousel-slide three">
-                  And bring them to your finger tips.
-                </h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--signup & download-->
-      <div class="row mt-5 phoneSignup">
-        <div class="col-md-6">
-          <div class="phone">
-            <img
-              src="https://res.cloudinary.com/taofeeq/image/upload/v1586892933/mamas_market_2_qi4yli.png"
-              alt="logo"
-              height="100"
-              width="200"
-            />
-          </div>
-        </div>
-        <div class="col-md-6 text-center pt-3 pr-md-5 downloadSignup">
-          <h1 class="my-3">
-            Join us today, <br />
-            as a buyer or a seller
-          </h1>
-          <button
-            class="btn btn-warning btn-lg"
-            data-toggle="modal"
-            data-target="#registerModal"
-          >
-            Sign Up Here
-          </button>
-          <!--modal-->
-          <div
-            class="modal fade"
-            id="registerModal"
-            tabindex="-1"
-            role="dialog"
-            aria-labelledby="registerModalLabel"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="registerModalLabel">
-                    Select Account Type
-                  </h5>
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
+              <div class="modal-body">
+                <span class="my-5">
+                  <span class="m-3">
+                    <a href="buyerSignup.html">
+                      <button class="btn btn-outline-warning">
+                        Sign Up as Buyer
+                      </button>
+                    </a></span
                   >
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <span class="my-5">
-                    <span class="m-3">
-                      <a href="buyerSignup.html">
-                        <button class="btn btn-outline-warning">
-                          Sign Up as Buyer
-                        </button>
-                      </a></span
-                    >
-                    <span class="m-3">
-                      <a href="sellerSignup.html">
-                        <button class="btn btn-outline-warning">
-                          Sign Up as Seller
-                        </button>
-                      </a></span
-                    >
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--download-->
-          <h1 class="my-4">Download Mama's Market Free App</h1>
-          <span>
-            <button class="btn btn-outline-black mx-2">
-              <span class="store-btn">
-                <span><i class="fab fa-2x fa-apple mr-2"></i></span>
-                <span class="store">
-                  <span class="small">Download on the</span>
-                  <span class="big">App Store</span>
+                  <span class="m-3">
+                    <a href="sellerSignup.html">
+                      <button class="btn btn-outline-warning">
+                        Sign Up as Seller
+                      </button>
+                    </a></span
+                  >
                 </span>
-              </span>
-            </button>
-            <button class="btn btn-outline-black mx-2">
-              <span class="store-btn">
-                <span><i class="fab fa-2x fa-google-play mr-1"></i></span>
-                <span class="store">
-                  <span class="small text-left">GET IT ON</span>
-                  <span class="big">Google Play</span>
-                </span>
-              </span>
-            </button>
-          </span>
-        </div>
-      </div>
-      <!--about us-->
-      <div id="about"></div>
-      <div class="row mt-3 bg-secondary text-light">
-        <div class="container py-4">
-          <div class="col-12">
-            <h1 class="text-center my-5 py-2">A<span>bout U</span>s</h1>
-            <div class="row">
-              <div class="col-md-6">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Ipsam quisquam libero quam, vitae nihil laboriosam quod modi,
-                  nisi quidem natus beatae corporis consequuntur eos voluptatum
-                  commodi aspernatur reiciendis. Veritatis, nostrum.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Ipsam quisquam libero quam, vitae nihil laboriosam quod modi,
-                  nisi quidem natus beatae corporis consequuntur eos voluptatum
-                  commodi aspernatur reiciendis. Veritatis, nostrum.
-                </p>
-              </div>
-              <div class="col-md-6">
-                <div data-aos="fade-left">
-                  <img
-                    src="https://res.cloudinary.com/taofeeq/image/upload/v1586918363/cheerful-young-african-woman-listening-music-smart-phone_33839-8644_afjlc7.jpg"
-                    alt="lady"
-                    class="w-100 img-fluid"
-                  />
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <div data-aos="fade-right">
-                  <img
-                    src="https://res.cloudinary.com/taofeeq/image/upload/v1586918347/joyful-young-african-american-woman-laughing_33839-10524_ybo8ve.jpg"
-                    alt="lady"
-                    class="w-100 img-fluid"
-                  />
-                </div>
-              </div>
-              <div class="col-md-6">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Ipsam quisquam libero quam, vitae nihil laboriosam quod modi,
-                  nisi quidem natus beatae corporis consequuntur eos voluptatum
-                  commodi aspernatur reiciendis. Veritatis, nostrum.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Ipsam quisquam libero quam, vitae nihil laboriosam quod modi,
-                  nisi quidem natus beatae corporis consequuntur eos voluptatum
-                  commodi aspernatur reiciendis. Veritatis, nostrum.
-                </p>
               </div>
             </div>
           </div>
         </div>
+        <!--download-->
+        <h1 class="my-4">Download Mama's Market Free App</h1>
+        <span>
+          <button class="btn btn-outline-black mx-2">
+            <span class="store-btn">
+              <span><i class="fab fa-2x fa-apple mr-2"></i></span>
+              <span class="store">
+                <span class="small">Download on the</span>
+                <span class="big">App Store</span>
+              </span>
+            </span>
+          </button>
+          <button class="btn btn-outline-black mx-2">
+            <span class="store-btn">
+              <span><i class="fab fa-2x fa-google-play mr-1"></i></span>
+              <span class="store">
+                <span class="small text-left">GET IT ON</span>
+                <span class="big">Google Play</span>
+              </span>
+            </span>
+          </button>
+        </span>
       </div>
-      <!--contact us-->
-      <div id="contact"></div>
-      <div class="row pt-5">
-        <div class="container-fluid py-4">
-          <div class="col-12 pt-3">
-            <h1 class="text-center mb-3">
-              C<span class="contactUs">ontact U</span>s
-            </h1>
-            <div class="row">
-              <div class="col-md-6 px-0">
-                <div class="landline">
-                  <span class="my-2">
-                    <a href="tel:+" class="text-dark fa-lg"
-                      ><i class="fas fa-phone"></i>&emsp;+234808070706</a
-                    >
-                  </span>
-                  <span class="my-2">
-                    <a href="mailto:" class="text-dark fa-lg"
-                      ><i class="fas fa-envelope"></i
-                      >&emsp;mamamarket@mail.com</a
-                    >
-                  </span>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="px-5 py-5">
-                  <form action="">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control"
-                        name="name"
-                        id="name"
-                        placeholder="Your Name"
-                        required
-                      />
-                    </div>
-                    <div class="form-group">
-                      <input
-                        type="email"
-                        class="form-control"
-                        name="email"
-                        id="email"
-                        placeholder="Your Email"
-                        required
-                      />
-                    </div>
-                    <div class="form-group">
-                      <textarea
-                        name="message"
-                        id="message"
-                        cols="30"
-                        rows="10"
-                        class="form-control"
-                        placeholder="Your Message"
-                        required
-                      ></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-dark">
-                      Send Message
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--footer-->
-      <div class="row mt-3 bg-dark text-light">
+    </div>
+    <!--about us-->
+    <div id="about"></div>
+    <div class="row mt-3 bg-secondary text-light">
+      <div class="container py-4">
         <div class="col-12">
-          <div class="row py-5">
-            <div class="col-md-6 px-5">
-              <div class="container pl-md-5 mb-3">
-                <h3 class="">Subscribe to our Newsletter</h3>
-                <form action="" class="ml-3">
-                  <div class="row form-inline">
-                    <input
-                      type="email"
-                      name="submail"
-                      id="submail"
-                      class="form-control mr-3 my-2"
-                      placeholder="Your Email"
-                      required
-                    />
-                    <button type="submit" class="btn btn-outline-light">
-                      Subscribe
-                    </button>
-                  </div>
-                </form>
+          <h1 class="text-center my-5 py-2">A<span>bout U</span>s</h1>
+          <div class="row">
+            <div class="col-md-6">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
+                quisquam libero quam, vitae nihil laboriosam quod modi, nisi
+                quidem natus beatae corporis consequuntur eos voluptatum commodi
+                aspernatur reiciendis. Veritatis, nostrum.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
+                quisquam libero quam, vitae nihil laboriosam quod modi, nisi
+                quidem natus beatae corporis consequuntur eos voluptatum commodi
+                aspernatur reiciendis. Veritatis, nostrum.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <div data-aos="fade-left">
+                <img
+                  src="https://res.cloudinary.com/taofeeq/image/upload/v1586918363/cheerful-young-african-woman-listening-music-smart-phone_33839-8644_afjlc7.jpg"
+                  alt="lady"
+                  class="w-100 img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div data-aos="fade-right">
+                <img
+                  src="https://res.cloudinary.com/taofeeq/image/upload/v1586918347/joyful-young-african-american-woman-laughing_33839-10524_ybo8ve.jpg"
+                  alt="lady"
+                  class="w-100 img-fluid"
+                />
               </div>
             </div>
             <div class="col-md-6">
-              <div class="container pl-5">
-                <h3>
-                  Download Mama's Market Free App
-                </h3>
-                <span>
-                  <button class="btn btn-outline-light mx-2">
-                    <span class="store-btn">
-                      <span><i class="fab fa-2x fa-apple mr-2"></i></span>
-                      <span class="store">
-                        <span class="small">Download on the</span>
-                        <span class="big">App Store</span>
-                      </span>
-                    </span>
-                  </button>
-                  <button class="btn btn-outline-light mx-2">
-                    <span class="store-btn">
-                      <span><i class="fab fa-2x fa-google-play mr-1"></i></span>
-                      <span class="store">
-                        <span class="small text-left">GET IT ON</span>
-                        <span class="big">Google Play</span>
-                      </span>
-                    </span>
-                  </button>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
+                quisquam libero quam, vitae nihil laboriosam quod modi, nisi
+                quidem natus beatae corporis consequuntur eos voluptatum commodi
+                aspernatur reiciendis. Veritatis, nostrum.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
+                quisquam libero quam, vitae nihil laboriosam quod modi, nisi
+                quidem natus beatae corporis consequuntur eos voluptatum commodi
+                aspernatur reiciendis. Veritatis, nostrum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--contact us-->
+    <div id="contact"></div>
+    <div class="row pt-5">
+      <div class="container-fluid py-4">
+        <div class="col-12 pt-3">
+          <h1 class="text-center mb-3">
+            C<span class="contactUs">ontact U</span>s
+          </h1>
+          <div class="row">
+            <div class="col-md-6 px-0">
+              <div class="landline">
+                <span class="my-2">
+                  <a href="tel:+" class="text-dark fa-lg"
+                    ><i class="fas fa-phone"></i>&emsp;+234808070706</a
+                  >
+                </span>
+                <span class="my-2">
+                  <a href="mailto:" class="text-dark fa-lg"
+                    ><i class="fas fa-envelope"></i>&emsp;mamamarket@mail.com</a
+                  >
                 </span>
               </div>
             </div>
-          </div>
-          <div class="row bg-black py-4 text-center">
-            <div class="col-md-6 offset-md-3 bottom">
-              <a href="#" class="text-light mx-3"
-                ><i class="fas fa-phone fa-lg"></i
-              ></a>
-              <a href="#" class="text-light mx-3"
-                ><i class="fas fa-envelope fa-lg"></i
-              ></a>
-              <a href="#" class="text-light mx-3"
-                ><i class="fab fa-twitter fa-lg"></i
-              ></a>
-              <a href="#" class="text-light mx-3"
-                ><i class="fab fa-instagram fa-lg"></i
-              ></a>
-              <a href="#" class="text-light mx-3"
-                ><i class="fab fa-facebook fa-lg"></i
-              ></a>
+            <div class="col-md-6">
+              <div class="px-5 py-5">
+                <form action="">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="name"
+                      id="name"
+                      placeholder="Your Name"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Your Email"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <textarea
+                      name="message"
+                      id="message"
+                      cols="30"
+                      rows="10"
+                      class="form-control"
+                      placeholder="Your Message"
+                      required
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-dark">
+                    Send Message
+                  </button>
+                </form>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--footer-->
+    <div class="row mt-3 bg-dark text-light">
+      <div class="col-12">
+        <div class="row py-5">
+          <div class="col-md-6 px-5">
+            <div class="container pl-md-5 mb-3">
+              <h3 class="">Subscribe to our Newsletter</h3>
+              <form action="" class="ml-3">
+                <div class="row form-inline">
+                  <input
+                    type="email"
+                    name="submail"
+                    id="submail"
+                    class="form-control mr-3 my-2"
+                    placeholder="Your Email"
+                    required
+                  />
+                  <button type="submit" class="btn btn-outline-light">
+                    Subscribe
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="container pl-5">
+              <h3>
+                Download Mama's Market Free App
+              </h3>
+              <span>
+                <button class="btn btn-outline-light mx-2 my-2">
+                  <span class="store-btn">
+                    <span><i class="fab fa-2x fa-apple mr-2"></i></span>
+                    <span class="store">
+                      <span class="small">Download on the</span>
+                      <span class="big">App Store</span>
+                    </span>
+                  </span>
+                </button>
+                <button class="btn btn-outline-light mx-2 my-2">
+                  <span class="store-btn">
+                    <span><i class="fab fa-2x fa-google-play mr-1"></i></span>
+                    <span class="store">
+                      <span class="small text-left">GET IT ON</span>
+                      <span class="big">Google Play</span>
+                    </span>
+                  </span>
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="row bg-black py-4 text-center">
+          <div class="col-md-6 offset-md-3 bottom">
+            <a href="#" class="text-light mx-3"
+              ><i class="fas fa-phone fa-lg"></i
+            ></a>
+            <a href="#" class="text-light mx-3"
+              ><i class="fas fa-envelope fa-lg"></i
+            ></a>
+            <a href="#" class="text-light mx-3"
+              ><i class="fab fa-twitter fa-lg"></i
+            ></a>
+            <a href="#" class="text-light mx-3"
+              ><i class="fab fa-instagram fa-lg"></i
+            ></a>
+            <a href="#" class="text-light mx-3"
+              ><i class="fab fa-facebook fa-lg"></i
+            ></a>
           </div>
         </div>
       </div>
