@@ -1,0 +1,105 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.btn-outline-black {
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.btn-outline-black:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.bg-black {
+  background: #2c2f33;
+}
+
+/* .btn-market {
+  background-color: rgb(214, 171, 27);
+  color: #ffffff;
+} */
+
+.carousel-slide {
+  height: 80vh;
+  width: 100%;
+  padding: 8% 10%;
+  font-size: 4em;
+  font-weight: bolder;
+  color: rgb(7, 17, 7);
+}
+
+.one {
+  background-image: url("https://res.cloudinary.com/taofeeq/image/upload/v1586905918/32925622958_94dc9b393b_b_ccithp.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.two {
+  background-image: url("https://res.cloudinary.com/taofeeq/image/upload/v1586906872/online-shopping-4516037_960_720_slahxa.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.three {
+  background-image: url("https://res.cloudinary.com/taofeeq/image/upload/v1586906880/1_nwltr9.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.phone {
+  background-image: url("https://res.cloudinary.com/taofeeq/image/upload/v1586900512/smartphone-1557796_960_720_op2cic.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50% 35%;
+}
+
+.store-btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.store {
+  display: flex;
+  flex-direction: column;
+}
+
+.small {
+  font-size: 0.6em;
+  margin-bottom: -0.5em;
+}
+
+.big {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#about span {
+  border-bottom: 3px solid #ffffff;
+}
+
+#contact span {
+  border-bottom: 3px solid #333333;
+}
+
+.landline {
+  background-image: url("https://res.cloudinary.com/taofeeq/image/upload/v1586923005/telefono-rojo_afgzse.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  /* background: red; */
+  padding: 30% 30%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.landline a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}

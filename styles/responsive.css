@@ -1,0 +1,28 @@
+@media screen and (min-width: 1000px) {
+  .downloadSignup {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .phone {
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .phone {
+    background-size: contain;
+    padding: 50% 23%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .carousel-slide {
+    font-size: 2.5em;
+  }
+
+  .phone {
+    padding: 50% 25%;
+  }
+}
