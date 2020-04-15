@@ -143,22 +143,22 @@
           aria-labelledby="registerModalLabel"
           aria-hidden="true"
         >
-          <div
-            class="modal-dialog modal-dialog-centered modal-sm"
-            role="document"
-          >
+          <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
-              <a href="buyerSignup.html" class="m-1">
-                <button class="btn btn-outline-warning">
-                  Sign Up as Buyer
-                </button>
-              </a>
-              <br />
-              <a href="sellerSignup.html" class="m-1">
-                <button class="btn btn-outline-warning">
-                  Sign Up as Seller
-                </button>
-              </a>
+              <h3>Select account type</h3>
+              <span class="modal-content-inner">
+                <a href="buyerSignup.html" class="m-1">
+                  <button class="btn btn-outline-warning">
+                    Sign Up as Buyer
+                  </button>
+                </a>
+                <br />
+                <a href="sellerSignup.html" class="m-1">
+                  <button class="btn btn-outline-warning">
+                    Sign Up as Seller
+                  </button>
+                </a>
+              </span>
             </div>
           </div>
         </div>
@@ -191,10 +191,12 @@
     <div class="row mt-3 bg-secondary text-light">
       <div class="container py-4">
         <div class="col-12">
-          <h1 class="text-center my-5 py-2">A<span class="aboutUs">bout U</span>s</h1>
+          <h1 class="text-center my-5 py-2">
+            A<span class="aboutUs">bout U</span>s
+          </h1>
           <div class="row">
             <div class="col-md-6">
-              <div data-aos="fade-right">
+              <div data-aos="zoom-in-right">
                 <img
                   src="https://res.cloudinary.com/taofeeq/image/upload/v1586918347/joyful-young-african-american-woman-laughing_33839-10524_ybo8ve.jpg"
                   alt="lady"
@@ -229,7 +231,7 @@
               </p>
             </div>
             <div class="col-md-6">
-              <div data-aos="fade-left">
+              <div data-aos="zoom-in-left">
                 <img
                   src="https://res.cloudinary.com/taofeeq/image/upload/v1586918363/cheerful-young-african-woman-listening-music-smart-phone_33839-8644_afjlc7.jpg"
                   alt="lady"
@@ -251,7 +253,12 @@
           </h1>
           <div class="row">
             <div class="col-md-6 px-0">
-              <div class="landline">
+              <div
+                class="landline"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+              >
                 <span class="my-2">
                   <a href="tel:+" class="text-dark fa-lg"
                     ><i class="fas fa-phone"></i>&emsp;+234808070706</a

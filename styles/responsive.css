@@ -15,8 +15,14 @@
     background-size: contain;
     padding: 50% 23%;
   }
+
   .carousel-slide {
     padding: 20% 10%;
+  }
+
+  .modal-content {
+    width: 450px;
+    padding: 20% 15%;
   }
 }
 
@@ -28,5 +34,24 @@
 
   .phone {
     padding: 50% 25%;
+  }
+
+  .modal-content {
+    width: 400px;
+    padding: 20% 12%;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .modal-content {
+    width: 350px;
+    padding: 20% 7%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .modal-content {
+    width: 300px;
+    padding: 20% 5%;
   }
 }
