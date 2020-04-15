@@ -20,10 +20,13 @@ body {
   background: #2c2f33;
 }
 
-/* .btn-market {
-  background-color: rgb(214, 171, 27);
-  color: #ffffff;
-} */
+.move-left {
+  margin-left: auto;
+}
+
+.w-90 {
+  width: 100%;
+}
 
 .carousel-slide {
   height: 80vh;
@@ -31,7 +34,7 @@ body {
   padding: 10% 10%;
   font-size: 4em;
   font-weight: bolder;
-  color: rgb(7, 17, 7);
+  color: #ffc107;
 }
 
 .one {
