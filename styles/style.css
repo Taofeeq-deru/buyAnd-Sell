@@ -55,13 +55,6 @@ body {
   background-position: center;
 }
 
-.phone {
-  background-image: url("https://res.cloudinary.com/taofeeq/image/upload/v1586900512/smartphone-1557796_960_720_op2cic.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 50% 35%;
-}
-
 .store-btn {
   display: flex;
   flex-direction: row;
