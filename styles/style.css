@@ -55,6 +55,12 @@ body {
   background-position: center;
 }
 
+.four {
+  background-image: url("https://res.cloudinary.com/taofeeq/image/upload/v1587075352/92ca97bae3749a8644d803aaf76eb744_sslxyq.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .w-85 {
   width: 85%;
 }
