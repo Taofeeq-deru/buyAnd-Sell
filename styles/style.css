@@ -31,32 +31,26 @@ body {
 .carousel-slide {
   height: 80vh;
   width: 100%;
-  padding: 10% 10%;
+  /* padding: 10% 10%;
   font-size: 4em;
   font-weight: bolder;
-  color: #ffc107;
+  color: #ffc107; */
 }
 
 .one {
-  background-image: url("https://res.cloudinary.com/taofeeq/image/upload/v1586905918/32925622958_94dc9b393b_b_ccithp.jpg");
+  background-image: url("https://res.cloudinary.com/taofeeq/image/upload/v1587075352/92ca97bae3749a8644d803aaf76eb744_sslxyq.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .two {
-  background-image: url("https://res.cloudinary.com/taofeeq/image/upload/v1586906872/online-shopping-4516037_960_720_slahxa.jpg");
+  background-image: url("https://res.cloudinary.com/taofeeq/image/upload/v1587115168/mama_site_banner_2_u1tc4v.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .three {
   background-image: url("https://res.cloudinary.com/taofeeq/image/upload/v1586906880/1_nwltr9.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.four {
-  background-image: url("https://res.cloudinary.com/taofeeq/image/upload/v1587075352/92ca97bae3749a8644d803aaf76eb744_sslxyq.jpg");
   background-size: cover;
   background-position: center;
 }
