@@ -28,33 +28,6 @@ body {
   width: 100%;
 }
 
-.carousel-slide {
-  height: 80vh;
-  width: 100%;
-  /* padding: 10% 10%;
-  font-size: 4em;
-  font-weight: bolder;
-  color: #ffc107; */
-}
-
-.one {
-  background-image: url("https://res.cloudinary.com/taofeeq/image/upload/v1587075352/92ca97bae3749a8644d803aaf76eb744_sslxyq.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.two {
-  background-image: url("https://res.cloudinary.com/taofeeq/image/upload/v1587115168/mama_site_banner_2_u1tc4v.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.three {
-  background-image: url("https://res.cloudinary.com/taofeeq/image/upload/v1586906880/1_nwltr9.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
 .w-85 {
   width: 85%;
 }
@@ -88,8 +61,26 @@ body {
   border-bottom: 3px solid #333333;
 }
 
+.testimonials {
+  border-bottom: 3px solid #333333;
+}
+
+.mx-center {
+  margin-left: 15%;
+}
+
+.card-img {
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+}
+
+.bg-secondary-light {
+  background-color: #dee0e2;
+}
+
 .landline {
-  background-image: url("https://res.cloudinary.com/taofeeq/image/upload/v1586923005/telefono-rojo_afgzse.jpg");
+  background-image: url("https://res.cloudinary.com/taofeeq/image/upload/v1587130003/telefono-rojo-removebg-preview_bjsva0.png");
   background-repeat: no-repeat;
   background-position: left;
   background-size: contain;

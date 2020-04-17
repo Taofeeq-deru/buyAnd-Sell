@@ -16,9 +16,9 @@
     margin-right: 70%;
   }
 
-  .carousel-slide {
+  /* .carousel-slide {
     padding: 20% 10%;
-  }
+  } */
 
   .modal-content {
     width: 450px;
@@ -27,9 +27,18 @@
 }
 
 @media screen and (max-width: 425px) {
-  .carousel-slide {
-    font-size: 2.5em;
-    padding: 30% 10%;
+  .card-img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .carousel-item {
+    margin-top: 30px;
+    height: 40vh;
+  }
+
+  .banner {
+    height: 40vh;
   }
 
   .modal-content {
@@ -51,6 +60,11 @@
 }
 
 @media screen and (max-width: 350px) {
+  .card-img {
+    height: 60px;
+    width: 60px;
+  }
+
   .modal-content {
     width: 300px;
     padding: 20% 5%;
