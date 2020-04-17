@@ -79,6 +79,10 @@ body {
   background-color: #dee0e2;
 }
 
+.smartPhone {
+  height: 90vh;
+}
+
 .landline {
   background-image: url("https://res.cloudinary.com/taofeeq/image/upload/v1587130003/telefono-rojo-removebg-preview_bjsva0.png");
   background-repeat: no-repeat;
