@@ -6,6 +6,10 @@ body {
   position: relative;
 }
 
+.top-nav a:hover {
+  text-decoration: none;
+}
+
 .btn-outline-black {
   color: #000000;
   border: 1px solid #000000;
@@ -19,6 +23,17 @@ body {
 .bg-black {
   background: #2c2f33;
 }
+
+/* .carousel-slide {
+  height: 80vh;
+  width: 100%;
+}
+
+.one {
+  background-image: url("../banner.jpg");
+  background-size: cover;
+  background-position: center;
+} */
 
 .move-left {
   margin-left: auto;
@@ -66,13 +81,13 @@ body {
 }
 
 .mx-center {
-  margin-left: 15%;
+  margin-left: 12%;
 }
 
 .card-img {
   border-radius: 100%;
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
 }
 
 .bg-secondary-light {
