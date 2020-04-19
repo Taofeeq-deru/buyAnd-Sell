@@ -6,6 +6,25 @@ body {
   position: relative;
 }
 
+.container {
+  padding: 0px;
+}
+
+nav.navbar {
+  width: inherit;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-link {
+  font-size: 1.2em;
+}
+
+.navbtn {
+  position: relative;
+  right: 8%;
+}
+
 #myBtn {
   display: none;
   position: fixed;

@@ -53,6 +53,12 @@
     width: 94%;
   }
 
+  .navbtn {
+    position: relative;
+    left: 50%;
+    right: 0%;
+  }
+
   #myBtn {
     left: 75%;
   }
@@ -87,6 +93,13 @@
   .modal-content {
     width: 400px;
     padding: 20% 12%;
+  }
+}
+
+@media screen and (max-width: 419px) {
+  .navbtn {
+    position: relative;
+    left: -10%;
   }
 }
 
