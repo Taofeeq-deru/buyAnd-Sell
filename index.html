@@ -36,6 +36,15 @@
     <title>Mama's Market</title>
   </head>
   <body data-spy="scroll" data-target="#navigation" data-offset="0">
+    <!--scroll-up button-->
+
+    <i
+      onclick="topFunction()"
+      id="myBtn"
+      title="Go to top"
+      class="fas fa-arrow-alt-circle-up fa-3x"
+    ></i>
+
     <!--navbar-->
     <div class="fixed-top">
       <div class="row w-99 bg-success p-0">
@@ -223,7 +232,7 @@
     </div>
     <!--about us-->
     <div id="about"></div>
-    <div class="row pt-3 bg-secondary text-light">
+    <div class="row pt-5 bg-secondary text-light">
       <div class="container py-4">
         <div class="col-12">
           <h1 class="text-center my-5 py-2">
@@ -380,7 +389,7 @@
     <div id="contact"></div>
     <div class="row pt-5 bg-secondary-light">
       <div class="container-fluid py-4">
-        <div class="col-12 pt-3">
+        <div class="col-12 pt-5">
           <h1 class="text-center mb-3">
             C<span class="contactUs">ontact U</span>s
           </h1>
@@ -524,6 +533,34 @@
         </div>
       </div>
     </div>
+
+    <!--scroll-up script-->
+    <script>
+      //Get the button
+      let mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
 
     <!--aos script-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
