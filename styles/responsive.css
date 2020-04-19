@@ -12,11 +12,19 @@
   .w-99 {
     width: 93%;
   }
+
+  #myBtn {
+    left: 85%;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .carousel-item {
     height: 70vh;
+  }
+
+  #myBtn {
+    left: 83%;
   }
 
   .banner {
@@ -43,6 +51,10 @@
 @media screen and (max-width: 425px) {
   .w-99 {
     width: 94%;
+  }
+
+  #myBtn {
+    left: 75%;
   }
 
   .top-nav {
